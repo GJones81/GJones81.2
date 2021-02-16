@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" media="screen and (max-width: 820px)" type="text/css" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 821px) and (max-width: 1099px)" type="text/css" href="tablet.css">
+	<link rel="stylesheet" media="screen and (min-width: 1100px)" type="text/css" href="desktop.css">
+    <title>Portfolio of Guy Jones</title>
+</head>
+<body>
+    <div style="background-color: #B3B396;">
+        <div id="fixed-menu" class="container">
+            <div id="nav-bar-row" class="row align-items-center">
+                <div class="col">
+                    <button type="button" class="btn btn-link">
+                        <a href="index.html">Bio/Home</a>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-link">
+                        <a href="projects.html">Projects</a>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-link">Resume</button>
+                </div>
+                <div id="nav-bar-spacer" class="col-8"></div>
+            </div>
+        </div>
+    </div>
+    <div id="popout-menu">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg p-4">
+                <div class="row">
+                    <div class="col">
+                        <button type="button" class="btn btn-link">
+                            <a href="index.html">Bio/Home</a>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-link">
+                            <a href="projects.html">Projects</a>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-link">Resume</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg">
+            <div class="container-fluid">
+              <button id="toggle-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+        </nav>
+    </div>
+    <div id="name-container">
+        <div class="row">
+            <div class="col">
+                <h1 id="name">Guy Jones</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="title">Software Engineer</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="brand-statement">I’m a full-stack software engineer who creates lasting, scalable code using JavaScript, React, and Python. Building effective tools and applications that stand the test of time is a source of fulfillment for me, and I do so by approaching my work with intention, precision, and scalability. My vision is to see perfected details come together to form notable and inspiring products.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="brand-statement-accordion">
+        <div class="accordion-item">
+          <h3 class="accordion-header" id="headingOne">
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Personal Brand Statement
+            </button>
+          </h3>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>I’m a full-stack software engineer who creates lasting, scalable code using JavaScript, React, and Python. Building effective tools and applications that stand the test of time is a source of fulfillment for me, and I do so by approaching my work with intention, precision, and scalability. My vision is to see perfected details come together to form notable and inspiring products.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <div id="skills-container" class="container">
+        <div class="row skills-Row">
+            <div class="col">
+                <h3 class="skills-info">Languages</h3>
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/PythonIcon.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/JavascriptIcon.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/HTML5Icon.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/CSS.png">
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col">
+                <h3 class="skills-info">Frameworks</h3>
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/React.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/NodeJS.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/Flask.png">
+            </div>
+            <div class="col-sm-3 skills-info">
+                <img class="skills-icon" src="images/Bootstrap.png">
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col">
+                <h4 id="databases-label" class="skills-info">Databases</h4>
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col-sm-6 skills-info">
+                <img class="skills-icon" src="images/SQL.png">
+            </div>
+            <div class="col-sm-6 skills-info">
+                <img class ="skills-icon" src="images/MongoDB.png">
+            </div>
+        </div>
+    </div>
+    <div id="contact-info-container" class="container">
+        <div class="row skills-Row">
+            <div class="col">
+                <h5 id="contact-info-label" class="skills-info">Contact Information</h5>
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col-sm-6 skills-info">Email</div>
+            <div class="col-sm-6 skills-info">
+                <a href="Guy Jones Design Resume 2020 copy.pdf" target="blank">Resume</a>
+            </div>
+        </div>
+        <div class="row skills-Row">
+            <div class="col-sm-6 skills-info">
+                <img src="images/GitHub.png">
+            </div>
+            <div class="col-sm-6 skills-info">
+                <img src="images/LinkedIn.png">
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

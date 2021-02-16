@@ -1,0 +1,73 @@
+body {
+    background-color: #FFFFF0; 
+}
+
+a {
+    color: #9B84B3;
+}
+
+.btn-link {
+    color: #9B84B3;
+}
+
+#Resume {
+   color: #9B84B3; 
+}
+
+#nav-bar-row {
+    background-color: #B3B396;
+    height: 100px;
+}
+
+#nav-bar-spacer {
+    min-width: 70%;
+}
+
+#popout-menu {
+    display: none;
+}
+
+#name-container {
+    background-color: #B3B396;
+}
+
+#name {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#brand-statement {
+    text-align: center;
+}
+
+#brand-statement-accordion {
+    display: none;
+}
+
+#skills-container {
+    margin-top: 50px;
+}
+
+.skills-Row {
+    margin-top: 50px;
+}
+
+#contact-info-container {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.skills-info {
+    text-align: center;
+}
+
+#databases-label {
+    font-size: 28px;
+}
+
+#contact-info-label {
+    font-size: 28px;
+}

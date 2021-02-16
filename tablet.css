@@ -1,0 +1,55 @@
+body {
+    background-color: #FFFFF0; 
+}
+
+a {
+    color: #9B84B3;
+}
+
+.btn-link {
+    color: #9B84B3;
+}
+
+#nav-bar-row {
+    height: 100px;
+}
+
+#popout-menu {
+    background-color: #B3B396;
+}
+
+#fixed-menu {
+    display: none;
+}
+
+#name-container {
+    background-color: #B3B396;
+}
+
+#name {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#brand-statement {
+    display: none;
+}
+
+#brand-statement-accordion {
+    text-align: center;
+}
+
+#skills-container {
+    margin-top: 30px;
+}
+
+#contact-info-container {
+    margin-top: 30px;
+}
+
+.skills-info {
+    text-align: center;
+}
