@@ -71,3 +71,18 @@ a {
 #contact-info-label {
     font-size: 28px;
 }
+
+#project-title {
+    text-align: center;
+    background-color: #B3B396;
+    text-decoration: underline;
+}
+
+.card {
+    max-width: 50%;
+    align-content: center;
+}
+
+.buffer-space {
+    min-height: 50px;
+}
