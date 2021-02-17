@@ -78,10 +78,9 @@ a {
     text-decoration: underline;
 }
 
-.card {
-    max-width: 50%;
-    align-content: center;
-}
+/* .card {
+    max-width: 70%;
+} */
 
 .buffer-space {
     min-height: 50px;
