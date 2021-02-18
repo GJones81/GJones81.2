@@ -1,5 +1,6 @@
 body {
-    background-color: #FFFFF0; 
+    background-color: #FFFFF0;
+    font-family: 'Libre Baskerville', serif; 
 }
 
 a {
@@ -28,10 +29,13 @@ a {
 
 #name {
     text-align: center;
+    text-shadow: 1px 1px #80806B;
+    text-decoration: underline;
 }
 
 #title {
     text-align: center;
+    text-shadow: 1px 1px #80806B;
 }
 
 #brand-statement {

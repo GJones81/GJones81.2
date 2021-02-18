@@ -1,5 +1,6 @@
 body {
    background-color: #FFFFF0;
+   font-family: 'Libre Baskerville', serif;
 }
 
 a {
@@ -32,10 +33,13 @@ a {
 
 #name {
     text-align: center;
+    text-shadow: 1px 1px #80806B;
+    text-decoration: underline;
 }
 
 #title {
     text-align: center;
+    text-shadow: 1px 1px #80806B;
 }
 
 #brand-statement {
@@ -44,6 +48,10 @@ a {
 
 #brand-statement-accordion {
     text-align: center;
+}
+
+#brand-statement-button {
+    font-size: 20px;
 }
 
 #skills-container {

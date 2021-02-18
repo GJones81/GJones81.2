@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen and (max-width: 820px)" type="text/css" href="mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 821px) and (max-width: 1099px)" type="text/css" href="tablet.css">
 	<link rel="stylesheet" media="screen and (min-width: 1100px)" type="text/css" href="desktop.css">
@@ -13,22 +15,22 @@
     <div style="background-color: #B3B396;">
         <div id="fixed-menu" class="container">
             <div id="nav-bar-row" class="row align-items-center">
-                <div class="col">
+                <div class="col-2">
                     <button type="button" class="btn btn-link">
                         <a href="index.html">Bio/Home</a>
                     </button>
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <button type="button" class="btn btn-link">
                         <a href="projects.html">Projects</a>
                     </button>
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <button type="button" class="btn btn-link">
                         <a href="Guy Jones Design Resume 2020 copy.pdf" target="blank">Resume</a>
                     </button>
                 </div>
-                <div id="nav-bar-spacer" class="col-8"></div>
+                <div id="nav-bar-spacer" class="col-6"></div>
             </div>
         </div>
     </div>
@@ -36,17 +38,17 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg p-4">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-4">
                         <button type="button" class="btn btn-link">
                             <a href="index.html">Bio/Home</a>
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <button type="button" class="btn btn-link">
                             <a href="projects.html">Projects</a>
                         </button>
                     </div>
-                    <div class="col">
+                    <div class="col-4">
                         <button type="button" class="btn btn-link">Resume</button>
                     </div>
                 </div> 
@@ -63,7 +65,7 @@
     <div id="name-container">
         <div class="row">
             <div class="col">
-                <h1 style="text-decoration: underline;" id="name">Guy Jones</h1>
+                <h1 id="name">Guy Jones</h1>
             </div>
         </div>
         <div class="row">
@@ -83,7 +85,7 @@
     <div class="accordion" id="brand-statement-accordion">
         <div class="accordion-item">
           <h3 class="accordion-header" id="headingOne">
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button id="brand-statement-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Personal Brand Statement
             </button>
           </h3>
